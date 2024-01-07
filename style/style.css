@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --white-color: #ffffff;
+    --red-color: #FF0000;
+    --black-color: #070211;
+    --semi-white: rgba(255, 255, 255, 0.80);
+    --semi-black: rgba(7, 2, 17, 0.60);
+    --header-font: 'Merriweather', serif;
+    --body-font: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--white-color);
+}
+h1, h2 {
+    font-family: var(--header-font);
+    font-weight: 900;
+    
+}
+h1 {
+    font-size: 72px;
+    line-height: 1.33;
+}
+h2 {
+    font-size: 64px;
+    line-height: 1.37;
+}
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+h4 {
+    font-family: var(--header-font);
+    font-size: 32px;
+}
+h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--red-color);
+}
+p {
+    font-size: 18px;
+    color: var(--semi-white);
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    max-width: 1320px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+
+/* default style */
+.bg-img {
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 600px;
+}
+/* main hero section style */
+.header-area, .offer-price-section, .midnight-party-section {
+    margin: 60px  0 120px;
+}
+.hero-bg-img {
+    background-image: url('../resources/Banner\ Image.png');
+}
+.main-hero-section {
+    max-width: 650px;
+    text-align: center;
+    margin: auto;
+    padding-top: 190px;
+}
