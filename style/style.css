@@ -48,6 +48,11 @@ p {
     font-size: 18px;
     color: var(--semi-white);
 }
+a {
+    display: block;
+    text-decoration: none;
+    color: var(--white-color);
+}
 img {
     width: 100%;
     height: auto;
@@ -137,3 +142,59 @@ img {
 .shedule-content button {
     margin-top: 40px;
 }
+
+/* footer area */
+.footer-area {
+    background-color: var(--black-color);
+    padding: 120px 0;
+}
+.footer-area p, a {
+    font-weight: 500;
+    font-size: 24px;
+}
+.footer-top-content {
+    margin-bottom: 30px;
+}
+.footer-top-content, .footer-button-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-right img {
+    max-width: 24px;
+}
+.footer-right a {
+    position: relative;
+    margin-bottom: 6px;
+}
+.footer-right a img {
+    position: absolute;
+    left: -32px;top: 2px;
+}
+span.custom-hr-rule {
+    display: inline-block;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer-middle-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    margin-bottom: 32px;
+    gap: 24px;
+}
+.footer-middle-content img {
+    max-width: 50px;
+}
+.footer-button-content {
+    margin-top: 50px;
+}
+.footer-button-content button {
+    font-size: 24px;
+    background-color: transparent;
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+
