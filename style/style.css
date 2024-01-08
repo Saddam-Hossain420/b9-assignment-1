@@ -79,7 +79,7 @@ img {
     border-radius: 8px;
 }
 /* main hero section style */
-.header-area, .offer-price-section, .midnight-party-section, .schedule-section {
+.header-area, .offer-price-section, .midnight-party-section, .schedule-section, .coming-soon-section, .holidays-section {
     margin: 60px  0 120px;
 }
 .hero-bg-img {
@@ -198,3 +198,88 @@ span.custom-hr-rule {
     cursor: pointer;
 }
 
+/* coming soon section */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-left {
+    max-width: 400px;
+    margin-right: 70px;
+} 
+.flex-left h5 {
+    margin-bottom: 16px;
+}
+.flex-left h3 {
+    color: var(--black-color);
+    margin-bottom: 22px;
+}
+.flex-left p, .flex-right p, .holidays-section p {
+    color: var(--semi-black);
+    line-height: 1.9;
+}
+
+.flex-center {
+    margin-right: 120px;
+}
+.flex-center img {
+    width: 350px;
+}
+.custom-border {
+    border: 15px solid var(--red-color);
+    padding: 50px;
+    border-radius: 50%;
+}
+.flex-right img {
+    max-width: 140px;
+}
+.flex-right h3 {
+    color: var(--red-color);
+    margin-bottom: 16px;
+}
+.flex-right p {
+    margin-bottom: 42px;
+}
+
+/* holidays-section */
+.holidays-section {
+    text-align: center;
+}
+.holidays-section h5 {
+    margin-bottom: 16px;
+}
+.holidays-section h1 {
+    color: var(--black-color);
+    margin-bottom: 28px;
+}
+.holidays-section h1 span {
+    color: var(--red-color);
+}
+.holidays-section p {
+    max-width: 760px;
+    margin: 0 auto;
+}
+.img-collection {
+    display: flex;
+    position: relative;
+    background-image: url(/resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    margin-top: 60px;
+}
+.img-collection .img-3 {
+    height: 430px;
+}
+.img-collection .img-2 {
+    height: 284px;
+    position: relative;
+    top: 89px;
+    left: -50px;
+}
+.img-collection .img-3 {
+    height: 430px;
+    position: relative;
+    z-index: -1;
+    right: 187px;
+}
