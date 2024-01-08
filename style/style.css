@@ -32,6 +32,7 @@ h2 {
     line-height: 1.37;
 }
 h3 {
+    color: var(--black-color);
     font-size: 48px;
     font-weight: 700;
 }
@@ -46,7 +47,7 @@ h5 {
 }
 p {
     font-size: 18px;
-    color: var(--semi-white);
+    color: var(--semi-black);
 }
 a {
     display: block;
@@ -72,14 +73,20 @@ img {
 .red-btn {
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 40px;
+    padding: 14px 39px;
     background-color: var(--red-color);
     color: var(--white-color);
-    border: none;
+    border: 1px solid red;
     border-radius: 8px;
+    transition: 0.3s;
+}
+.red-btn:hover {
+    border: 1px solid red;
+    background-color: var(--white-color);
+    color: var(--red-color);
 }
 /* main hero section style */
-.header-area, .offer-price-section, .midnight-party-section, .schedule-section, .coming-soon-section, .holidays-section {
+.header-area, .offer-price-section, .midnight-party-section, .schedule-section, .coming-soon-section, .holidays-section, .portflio-section {
     margin: 60px  0 120px;
 }
 .hero-bg-img {
@@ -282,4 +289,37 @@ span.custom-hr-rule {
     position: relative;
     z-index: -1;
     right: 187px;
+}
+
+/* portfolio section */
+.portflio-section h5 {
+    margin-bottom: 16px;
+}
+.portflio-section h3 {
+    margin-bottom: 22px;
+}
+.portflio-section p {
+    max-width: 930px;
+}
+.all-products {
+    margin-top: 48px;
+}
+.all-products img {
+    max-width: 424px;
+    height: auto;
+    border-radius: 16px;
+}
+.all-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.single-product {
+    border-radius: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.single-product:hover {
+     box-shadow: 8px 13px 395px -67px rgba(96,176,54,0.75);
+
 }
