@@ -103,3 +103,37 @@ img {
     color: var(--black-color);
     margin-bottom: 48px;
 }
+
+/* midnight section style */
+.midnight-bg-img {
+    background-image: url('../resources/Vectorry.png');
+}
+.midnight-party-section .inner-content {
+    max-width: 700px;
+    padding: 126px 0 0 126px;
+}
+.midnight-party-section .inner-content h2 {
+    margin-bottom: 24px;
+}
+.midnight-party-section .inner-content P {
+    margin-bottom: 40px;
+}
+
+/* schedule section style */
+.shedule-content {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    padding: 90px 0 126px;
+}
+.shedule-content > p {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom:20px;
+}
+.shedule-content > p > span {
+    color: var(--red-color);
+}
+.shedule-content button {
+    margin-top: 40px;
+}
